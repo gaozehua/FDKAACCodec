@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FDK_AACCodec", "FDK_AACCodec.vcproj", "{0B09927E-10D7-43F2-B371-A88B77EE570A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FDKAACEnc", "..\..\test\FDKAACEnc\FDKAACEnc.vcproj", "{9BE96B64-98C3-4140-B857-96F53A14B4E6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B09927E-10D7-43F2-B371-A88B77EE570A} = {0B09927E-10D7-43F2-B371-A88B77EE570A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FDKAACDec", "..\..\test\FDKAACDec\FDKAACDec.vcproj", "{F6D73411-7026-4080-A8DE-EDE539B22285}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B09927E-10D7-43F2-B371-A88B77EE570A} = {0B09927E-10D7-43F2-B371-A88B77EE570A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B09927E-10D7-43F2-B371-A88B77EE570A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B09927E-10D7-43F2-B371-A88B77EE570A}.Debug|Win32.Build.0 = Debug|Win32
+		{0B09927E-10D7-43F2-B371-A88B77EE570A}.Release|Win32.ActiveCfg = Release|Win32
+		{0B09927E-10D7-43F2-B371-A88B77EE570A}.Release|Win32.Build.0 = Release|Win32
+		{9BE96B64-98C3-4140-B857-96F53A14B4E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BE96B64-98C3-4140-B857-96F53A14B4E6}.Debug|Win32.Build.0 = Debug|Win32
+		{9BE96B64-98C3-4140-B857-96F53A14B4E6}.Release|Win32.ActiveCfg = Release|Win32
+		{9BE96B64-98C3-4140-B857-96F53A14B4E6}.Release|Win32.Build.0 = Release|Win32
+		{F6D73411-7026-4080-A8DE-EDE539B22285}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6D73411-7026-4080-A8DE-EDE539B22285}.Debug|Win32.Build.0 = Debug|Win32
+		{F6D73411-7026-4080-A8DE-EDE539B22285}.Release|Win32.ActiveCfg = Release|Win32
+		{F6D73411-7026-4080-A8DE-EDE539B22285}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
